@@ -1,5 +1,5 @@
 ckdir() {
-  DIR = $1
-  mkdir $DIR &&
-  cd $DIR
+  local DIR = "$1"
+  mkdir "$DIR" &&
+  cd "$DIR"
 } 
